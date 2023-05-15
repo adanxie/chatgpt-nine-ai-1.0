@@ -126,18 +126,18 @@ NiniAi v1.0版本现已上线【20230515】
 #### 详细部署流程
 - 对于更多人而言图文教程会更加简单、我们以宝塔为例、打开宝塔面板、点击文件侧边栏、为了后续更新方面、建议您按着我们的提示创建目录、我们在根目录创建一个nineai文件夹然后点击进入！
 - 将我们的项目上传进来、当然、建议上传前将项目压缩、可以大大减少上传时间、上传后再解压缩、上传完是这样的：
-[压缩文件上传到宝塔界面](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137175602image.png)
+![](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137175602image.png)
 - 我们对其进行解压会变成这样
-[解压后的宝塔界面](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137211910image.png)
+![](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137211910image.png)
 - 我们在开始前请先双击编辑env文件、将你的数据库填入其中、其他不是必填项、我们有了mysql就可以正式启动项目了！
 点击终端、使用 pnpm install** 安装项目基础依赖、如果您的网络有问题或者安装速度缓慢或者卡住请使用pnpm add exceljs --registry=https://registry.npm.taobao.org*淘宝镜像源安装！- 
-[在终端中安装](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137519538image.png)
+![](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137519538image.png)
 - 当我们安装完依赖后、使用pnpm start命令即可启动项目！
-[在终端中启动项目](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137613663image.png)
+![](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137613663image.png)
 - 我们可以看到这样的页面、此时我们可以进入到日志查看日志
 - 使用pm2 log查看日志可以看到这些内容：
 - 当你看到这些内容的时候表示启动成功了
-[使用pm2 log查看日志](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137796873image.png)
+![](https://public-1300678944.cos.ap-shanghai.myqcloud.com/blog/1684137796873image.png)
 
 ### 更新日志
 ---
